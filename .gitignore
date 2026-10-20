@@ -1,0 +1,27 @@
+# Prerequisites
+*.d
+*.o
+*.bin
+*.elf
+*.autogen
+*.stamp
+
+# PlatformIO
+.pio
+.pioenvs
+.piolibdeps
+
+# Arduino IDE
+build/
+*.hex
+
+# VS Code / JetBrains / Editors
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+
+# OS generated
+.DS_Store
+Thumbs.db
