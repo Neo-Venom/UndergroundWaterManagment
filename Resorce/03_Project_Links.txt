@@ -1,0 +1,41 @@
+================================================================================
+INNOVATEX: THE FUTURE HABITATS CHALLENGE | TECHFEST, IIT BOMBAY
+PROJECT TITLE: AUTONOMOUS UNDERGROUND WATER MANAGEMENT SYSTEM
+TEAM NAME: TEAM NEO-VENOM
+================================================================================
+
+1. PRIMARY OPEN-SOURCE CODE REPOSITORY (GITHUB):
+   https://github.com/Neo-Venom/UndergroundWaterManagment
+
+   * Master Production Firmware:
+     https://github.com/Neo-Venom/UndergroundWaterManagment/tree/main/firmware/UnderGroundWaterManagement_Main
+   * Isolated Sensor Test Sketches (Unit Tests 01 to 09):
+     https://github.com/Neo-Venom/UndergroundWaterManagment/tree/main/firmware/tests
+   * Hardware Pinout & Wiring Specifications:
+     https://github.com/Neo-Venom/UndergroundWaterManagment/blob/main/docs/pinout.md
+   * Full System Technical Architecture:
+     https://github.com/Neo-Venom/UndergroundWaterManagment/blob/main/docs/implementation.md
+
+2. PRESENTATION DECK & MEDIA DELIVERABLES:
+   * Presentation Deck (PDF):
+     Located inside this submission folder as: 01_Presentation_Deck.pdf
+   * Presentation Deck (Editable PPTX):
+     Located inside this submission folder as: 01_Presentation_Deck.pptx
+   * Formal Round 1 Abstract Report:
+     Located inside this submission folder as: 02_Abstract_Report.pdf (and .md)
+
+3. LIVE DASHBOARD & TELEMETRY ACCESS:
+   * Embedded Web Dashboard: Hosted locally by ESP32 node at http://<ESP32_IP>/
+   * Real-Time Telemetry API: http://<ESP32_IP>/api/data
+   * Telegram Bot Alert Dispatcher: api.telegram.org direct TLS integration
+
+4. SIMULATION & DATA VERIFICATION SCRIPTS:
+   * Aquifer Depletion & Least-Squares Regression Simulator:
+     https://github.com/Neo-Venom/UndergroundWaterManagment/blob/main/analysis/drawdown_simulator.py
+   * 48-Hour Simulated Telemetry Dataset:
+     https://github.com/Neo-Venom/UndergroundWaterManagment/blob/main/analysis/sample_telemetry_data.csv
+
+5. CONTACT & REPOSITORY MAINTAINER:
+   * Team Neo-Venom
+   * GitHub: https://github.com/Neo-Venom
+================================================================================
